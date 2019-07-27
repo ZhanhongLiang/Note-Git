@@ -444,11 +444,33 @@ Git的版本库里存了很多东西，其中最重要的就是称为stage（或
 
 # 5.问题
 
+Windows环境：
 
+打开
+
+> C:\Windows\System32\drivers\etc\hosts     
+>
+
+
+
+> 添加一行：13.229.188.59　　github.com
+> 测试
+
+这里写图片描述
+
+
+
+可以看见它又变了，连接到另一个服务器上了。
+但是不慌，将这个IP也加上去就行了。
 
 # 6.参照
 
 廖雪峰的Git文档。
 
+https://blog.csdn.net/lvsehaiyang1993/article/details/80881433
 
 
+
+# 7.文献资料文档
+
+https://github.com/ZhanhongLiang/Note-Git/blob/master/git-cheatsheet.pdf
