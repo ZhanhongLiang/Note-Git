@@ -458,7 +458,7 @@ Windows环境：
 
 这里写图片描述
 
-
+![](https://raw.githubusercontent.com/ZhanhongLiang/Note-Git/master/2.png)
 
 可以看见它又变了，连接到另一个服务器上了。
 但是不慌，将这个IP也加上去就行了。
