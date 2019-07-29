@@ -448,7 +448,7 @@ Git的版本库里存了很多东西，其中最重要的就是称为stage（或
 
 **作业：自己创立一个github和gitee账号，并且尝试推送练习，最后用截图提交上来。**
 
-**提交方式：自己上传我的github里面，github账号：ZhanhongLiang。**
+**提交方式：自己上传我的github里面，github账号：https://github.com/ZhanhongLiang/Homework**
 
 # 6.问题
 
