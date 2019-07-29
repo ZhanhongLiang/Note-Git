@@ -6,6 +6,10 @@
 
 - 自定义Git库（用树莓派来作为服务器进行Git管理）
 
+- 作业
+
+- Git提交作业方式操作注意事项
+
 - 问题
 
 - 参照
@@ -442,7 +446,39 @@ Git的版本库里存了很多东西，其中最重要的就是称为stage（或
 
 
 
-# 5.问题
+# 5.作业
+
+**作业：自己创立一个github和gitee账号，并且尝试推送练习，最后用截图提交上来。**
+
+**提交方式：自己上传我的github里面，github账号：https://github.com/ZhanhongLiang/Homework**
+
+**截止日期：8月26号！！！**
+
+
+
+# 6.Git提交作业操作注意事项：
+
+作业完成了的，可以看一下这里的提交注意事项！！！！注意注意注意！！！重要的事情说三遍，如果没有完成的，可以在qq群/论坛（http://152.136.100.23/forum.php?mod=forumdisplay&fid=43)/github(https://github.com/ZhanhongLiang/Note-Git)/gitee(https://gitee.com/chinwongleung/NoteGit)里面进行下载。
+
+前提：首先你已经有了github账号和git了。
+
+然后第一步你要先将你的账号用户名发给我一份，方便我添加协助者，然后你可以在自己的本地仓库里面创建自己的dev分支，注意是从master分支里面下载我的作业，**提交作业是在dev分支里面，因为master分支是用来进行公布作业和代码的！！！一定要注意这个！！！**
+
+```
+$ git remote github/dev dev
+```
+
+一定要注意的是dev分支不是master分支。
+
+注意：如果你已经别人已经推送了，你自已不能提交上去，提示你的是冲突了，那么你用
+
+```
+$ git pull github/dev dev
+```
+
+这一句话可以解决冲突，然后合并一下，`git add <file>`和，`git commit`，然后再push一下就可以了。。。
+
+# 7.问题
 
 Windows环境：
 
@@ -463,7 +499,7 @@ Windows环境：
 可以看见它又变了，连接到另一个服务器上了。
 但是不慌，将这个IP也加上去就行了。
 
-# 6.参照
+# 8.参照
 
 廖雪峰的Git文档。
 
@@ -471,6 +507,6 @@ https://blog.csdn.net/lvsehaiyang1993/article/details/80881433
 
 
 
-# 7.文献资料文档
+# 9.文献资料文档
 
 https://github.com/ZhanhongLiang/Note-Git/blob/master/git-cheatsheet.pdf
